@@ -1,14 +1,8 @@
-# HW8_um367
+# This project contains visual text analytics of Lecture SLides of one of my Fall18 courses. A LSTM Recurrent Neural Network based Language model is also trained for this text corpus.
 
-
-## Assigment 1
 
 #### Data Source: 
 I used the the text data from Principles of Urban Informatics 2018 lecture slides. This course has and its materials definitely have undeniable urban relevance. 
-
-print("Principles of Urban Informatics".contains('Urban'))
-
-#### > True
 
 I retrieved the pdfs in a reproducible way from the web and parsed them to extract text using PyPDF2. Text was preprocessed and tokenized and then top 25 most frequent words were selected. I decided to visualize the distribution and occurence of these terms through out the course so far. For that I created a lexical dispersion plot of these terms, which shows there distribution in the corpus by plotting there occurence offsetted from the start of corpus. Corpus here is the raw text from all lectures concatenated in order of the lectures. NLTK library had a lexical dispersion plot but it was monochromatic and dull so I downloaded the source code function and modified it to color the bars by the lecture they correspond to (with an assumption that all the lectures roughly have same length.) All the packages used are downloaded within the notebook.
 
@@ -35,10 +29,6 @@ As a fun activity I trained a LSTM language model on PUI slides corpus and sampl
   
 It can be observed from the seed and generated sequence that the pdf parsing and word tokenizing was not perfect. But still, pretty cool!
 
-[Visuals Notebook](https://github.com/muaz-urwa/PUI2018_um367/blob/master/HW8_um367/Visuals.ipynb)
+[Visuals Notebook](https://github.com/muaz-urwa/Projects/blob/master/NLP/TextAnalytics_and_LanguageModel_for_PUILectures/Visuals.ipynb)
 
-[Language Model Notebook](https://github.com/muaz-urwa/PUI2018_um367/blob/master/HW8_um367/LanguageModelPui%20.ipynb)
-
-## Assigment 2
-I worked alone for this assigment.
-[Authorea Report](https://www.authorea.com/336190/VNpuaerJAzctO3LK1Lqa1g)
+[Language Model Notebook](https://github.com/muaz-urwa/Projects/blob/master/NLP/TextAnalytics_and_LanguageModel_for_PUILectures/LanguageModelPui%20.ipynb)
