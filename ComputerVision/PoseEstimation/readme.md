@@ -10,5 +10,6 @@
 
 ## Normal Rider
 <img src="urwa_walk.gif">
+
 ## Turnstile Jumper
 <img src="urwa_jump.gif">
