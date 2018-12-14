@@ -9,6 +9,6 @@
 [Notebook](https://github.com/muaz-urwa/Projects/blob/master/ComputerVision/PoseEstimation/urwa_TurnstileJumper_demoTest.ipynb)
 
 ## Normal Rider
-HTML('<img src="urwa_walk.gif">')
+<img src="urwa_walk.gif">
 ## Turnstile Jumper
-HTML('<img src="urwa_jump.gif">')
+<img src="urwa_jump.gif">
