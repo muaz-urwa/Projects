@@ -1,5 +1,10 @@
 # Geography of Emotions New York
 
+![Flickr](flickr.png)
+![tweet](tweetsentiment.png)
+
+
+
 #### Dependencies:
 
 - opencv (pip install opencv-python)
@@ -16,4 +21,5 @@
 - Geosentiment_tweet_Location: Calculates aggregated sentiment scores for the specified locations.
 - Geosentiment_tweet_PUMA: Calculates aggregates sentiment scores PUMA wise. 
 - Sample_Frames_video: samples and stores frames from video files.
-- 
+- geosentiment_flickr_puma: calculates puma wise emotions using microsoft face API and puma images dataset
+- geosentiment_flickr_landmark: calculates aggregate emotions for landmark image data using microsoft face api
