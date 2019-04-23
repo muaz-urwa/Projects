@@ -1,10 +1,7 @@
 
-[Notebook](https://github.com/muaz-urwa/Projects/blob/master/ComputerVision/PoseEstimation/urwa_TurnstileJumper_demoTest.ipynb)
-
-
 # Experiment- Steering Behaviors Study using Computer Vision
 
-We wanted to ibserve if the steering behaviors described in [Notebook](https://www.red3d.com/cwr/papers/1999/gdc99steer.pdf) are observed in urban settings. We collected video data from a few urban spaces around metro tech to observe the pedestrian mobility tracks in those spaces. We recorded short videos of public urban spaces which have a continuous stream of human traffic.
+We wanted to ibserve if the steering behaviors described in [Paper](https://www.red3d.com/cwr/papers/1999/gdc99steer.pdf) are observed in urban settings. We collected video data from a few urban spaces around metro tech to observe the pedestrian mobility tracks in those spaces. We recorded short videos of public urban spaces which have a continuous stream of human traffic.
 <img src="data.jpg">
 
 
@@ -34,7 +31,6 @@ Finally we min max normalized the tracks pairs and animated them to observe the 
 <img src="2.gif">
 <img src="3.gif">
 
-
 ## Steer Labelling
 We calculate the displacement, velocity and acceleration vectors of one agent with respect to other in the pair and then we label the behavior based on following rule.
 - If it is accelerating towards the target it is pursuit
@@ -43,10 +39,9 @@ We calculate the displacement, velocity and acceleration vectors of one agent wi
 - In other cases it is wander
 
 <img src="vector.gif">
+
 - Red arrow is velocity
 - Blue arrow is acceleration
-
-
 
 ## Limitation of this experiment
 Statistically speaking, if we observe large people pair paths we will observe all these kinds of characteristic trajectories but they would not essentially be motive driven steering behaviors. They would be very likely to occur by random chance. 
